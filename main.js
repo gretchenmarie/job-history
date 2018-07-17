@@ -63,6 +63,22 @@ const StTomasHealthAtHOme = Object.create({}, {
     }
 })
 
-const JobMaker = (a,r,g,u,m,e,n,t,s) {
+const JobMaker = (business,hoursPerweek,disliked, liked) => {
+   let theObjectYouBuilt = {
+       name:{
+           value: "business"
+       },
+       time:{
+           value: "hoursPerweek"
+      },
+      cons:{
+          value: "disliked"
+      },
+      pros:{
+          value:"liked"
+      }
+   }
+   
     return theObjectYouBuilt
 }
+let MyNewJob=JobMaker(Dreamcrafters, 40, mornings, office);
